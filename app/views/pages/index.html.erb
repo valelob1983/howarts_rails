@@ -13,8 +13,9 @@
       <% @characters.each do |character| %>
         <tr>
           <td><strong><%= character.name %></strong></td>
-          <td><span><%= character.house %></span></td>
           <td><small class="text-muted"><%= character.location %></small></td>
+          <td><span><%= character.house %></span></td>
+          
         </tr>
       <% end %>
     </tbody>

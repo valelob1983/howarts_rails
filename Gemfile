@@ -13,10 +13,6 @@ gem "pg", "~> 1.1"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
-# ******gema faker************
-gem 'faker', '~> 3.4', '>= 3.4.2'
-# ******bootstrap************
-gem 'bootstrap', '~> 5.1.3'
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem "jsbundling-rails"
@@ -72,3 +68,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+# ******gema faker************
+gem 'faker', '~> 3.4', '>= 3.4.2'
+# ******bootstrap************
+gem 'bootstrap', '~> 5.1.3'
